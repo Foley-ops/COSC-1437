@@ -1,0 +1,1 @@
+Create a class 'ProblemSolution'  and a method 'solution' inside the class with no input parameter and return type as void. The method should print "HELLO WORLD ".

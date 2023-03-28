@@ -1,0 +1,37 @@
+Given a class Car , create two classes 'BMW' and 'Honda' with following characteristics
+
+BMW class should have private property alloyWheels of integer type.
+Honda class should have private property normalWheels of integer type.
+Both BMW and Honda are inherited from 'Car' class.
+Both classes should implement setData which will set model, the color of super class and wheel count.
+BMW class should implement "getAlloyWheelCount" to return count of alloyWheels;
+Honda class should implement "getNormalWheelCount" to return count of normalWheels;
+
+
+Input
+    BMW1Series5-door Red 4
+    i-VTECS1497 Black 6
+
+
+
+    where,
+
+First line of input is a model, color, alloyWheels of BMW separated by space.
+Second line of input is a model, color and normalWheels count of Honda separated by space.
+
+
+Output
+    BMW1Series5-door Red 4
+    i-VTECS1497 Black 6
+
+
+
+    where,
+
+First line is a model, color and alloyWheels count of BMW separated by space.
+Second line is a model, color and normalWheels count of Honda separated by space.
+
+
+Assume:
+
+Wheel counts for both cars are integers within the range [1 to 20].
