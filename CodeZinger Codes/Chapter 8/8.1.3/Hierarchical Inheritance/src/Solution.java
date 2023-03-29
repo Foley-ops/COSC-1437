@@ -4,6 +4,11 @@ class Car {
     String color;
     String model;
 
+    Car(String model, String color) {
+        this.model = model;
+        this.color = color;
+    }
+
     String getColor()
     {
         return color;
@@ -13,7 +18,7 @@ class Car {
     {
         return model;
     }
-};
+}
 
 public class Solution {
     static void display(Car car,int wheels){
@@ -42,7 +47,28 @@ public class Solution {
         wheels = Integer.parseInt(tokens[2]);
         Honda honda = new Honda(model, color, wheels);
 
-        display(bmw, bmw.getAlloyWheelCount());
-        display(honda, honda.getNormalWheelCount());
+        display(bmw, bmw.getAlloyWheelsCount());
+        display(honda, honda.getNormalWheelsCount());
+    }
+}
+class BMW extends Car {
+    private int alloyWheels;
+    BMW(String model, String color, int alloyWheels){
+        super(model, color);
+        this.alloyWheels = alloyWheels;
+    }
+    int getAlloyWheelsCount() {
+        return alloyWheels;
+    }
+}
+
+class Honda extends Car {
+    private int normalWheels;
+    Honda(String model, String color, int normalWheels) {
+        super(model, color);
+        this.normalWheels = normalWheels;
+    }
+    int getNormalWheelsCount() {
+        return normalWheels;
     }
 }
