@@ -8,6 +8,12 @@ abstract class Bank {
 class BankA extends Bank {
 
 }
+class BankB extends Bank {
+
+}
+class BankC extends Bank {
+
+}
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
