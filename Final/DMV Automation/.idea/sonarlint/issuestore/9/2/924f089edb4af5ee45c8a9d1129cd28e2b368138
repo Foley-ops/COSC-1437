@@ -1,0 +1,22 @@
+
+Y
+java:S1854"<Remove this useless assignment to local variable "oldIDNum".(¿Úùˆ8ÔåŸ„ø0
+Z
+java:S1854"=Remove this useless assignment to local variable "issueDate".(É¿Ùª8êÌ˜„ø0
+X
+java:S1854";Remove this useless assignment to local variable "address".(®ÔŸñ8êÌ˜„ø0
+Z
+java:S1854"8Remove this useless assignment to local variable "name".(û•¼Îşÿÿÿÿ8êÌ˜„ø0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ûöô—ıÿÿÿÿ8ìÌ˜„ø0
+K
+java:S1481")Remove this unused "name" local variable.(û•¼Îşÿÿÿÿ8íÌ˜„ø0
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(Ìğšùüÿÿÿÿ8íÌ˜„ø0
+I
+java:S1481",Remove this unused "address" local variable.(®ÔŸñ8íÌ˜„ø0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÖËËôüÿÿÿÿ8õ—™„ø0
+K
+java:S1481".Remove this unused "issueDate" local variable.(É¿Ùª8îÌ˜„ø0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ïç¸¬8†ß„ø0
+J
+java:S1481"-Remove this unused "oldIDNum" local variable.(¿Úùˆ8ØåŸ„ø0
