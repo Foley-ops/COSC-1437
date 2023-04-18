@@ -5,7 +5,7 @@ public class Main {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int[] arr = new int[n];
-        int sum = 0;
+        long sum = 0;
         for (int i = 0; i < n; i++) {
             arr[i] = s.nextInt();
             sum += arr[i];
