@@ -1,8 +1,9 @@
 import java.util.Scanner;
-// Your program will be evaluated by this Main class and several test cases.
+
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        int order = s.nextInt();
         int N = s.nextInt();
 
         int A[] = new int[N];
@@ -11,12 +12,10 @@ public class Main {
         }
 
         ProblemSolution problemSolution = new ProblemSolution();
-        System.out.println(problemSolution.solution(A, N));
-    }
-}
-public class ProblemSolution {
-    public int solution(int[] A, int N) {
+        int[] sortedArray = problemSolution.solution(A, N, order);
 
-        //write code here
+        for (int num : sortedArray) {
+            System.out.print(num + " ");
+        }
     }
 }
