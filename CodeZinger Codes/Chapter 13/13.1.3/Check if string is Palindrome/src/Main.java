@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
-        int output = isPalindrome(input) ? 1 : 0;
+        String output = isPalindrome(input) ? "true" : "false";
         System.out.println(output);
     }
 
