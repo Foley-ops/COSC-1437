@@ -1,0 +1,12 @@
+ class main
+	take inputs : (name, DOB, idNumber, issueDate, expirationDate)
+	
+	call person object
+	outputs new values
+	
+	
+	
+class person
+	person object : takes(name, DOB, idNumber, issueDate, expirationDate)
+	
+	number generation methods: takes(idNumber, issueDate, expirationDate) to generate new values
